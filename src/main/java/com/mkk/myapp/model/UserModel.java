@@ -1,28 +1,51 @@
 package com.mkk.myapp.model;
 
 public class UserModel {
-	private int nId;
-	private String nWriter;
-	private String nContent;
+	private String id;
+	private String pw;
+	private String name;
+	private String email;
+	private String cellphone;
+	private String phone;
 	
-	public int getnId() {
-		return nId;
+	public String getId() {
+		return id;
 	}
-	public void setnId(int nId) {
-		this.nId = nId;
+	public void setId(String id) {
+		this.id = id;
 	}
-	public String getnWriter() {
-		return nWriter;
+	public String getPw() {
+		return pw;
 	}
-	public void setnWriter(String nWriter) {
-		this.nWriter = nWriter;
+	public void setPw(String pw) {
+		this.pw = pw;
 	}
-	public String getnContent() {
-		return nContent;
+	public String getName() {
+		return name;
 	}
-	public void setnContent(String nContent) {
-		this.nContent = nContent;
+	public void setName(String name) {
+		this.name = name;
 	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getCellphone() {
+		return cellphone;
+	}
+	public void setCellphone(String cellphone) {
+		this.cellphone = cellphone;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	
+	
 	
 	
 }

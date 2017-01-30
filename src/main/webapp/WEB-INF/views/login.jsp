@@ -37,12 +37,13 @@
                 </div>
                 <div class="form-group">
                     <div class="col-sm-offset-2 col-sm-10">
-                        <button id="join" class="btn btn-default">Sign on</button>
                         <button type="submit" class="btn btn-default">Sign in</button>
                     </div>
                 </div>
             </form>
-        </div>
+            <div align="center">
+                 <button id="join" class="btn btn-default">Sign on</button>
+	        </div>
         <script type="text/javascript">
             $("#join").click(function(){
                 location.href="joinForm.do";
