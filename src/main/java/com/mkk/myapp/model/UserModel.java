@@ -1,8 +1,5 @@
 package com.mkk.myapp.model;
 
-import org.apache.ibatis.type.Alias;
-
-@Alias("User")
 public class UserModel {
 	private int nId;
 	private String nWriter;
